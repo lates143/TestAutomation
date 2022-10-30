@@ -12,5 +12,8 @@ public class TestBasic {
 	public void TC2() {
 		Reporter.log("hii", true);
 	}
-	
+	@Test
+	public void TC3() {
+		Reporter.log("thanks", true);
+	}
 }
